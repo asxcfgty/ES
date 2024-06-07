@@ -1,0 +1,44 @@
+body {
+  background: linear-gradient(45deg, #0a7383e3, #0e1b88ed, #000000db);
+  margin-top: 0px;
+}
+#HeadLine {
+	width: 1144px;
+	height: 96px;
+    margin-left: auto;
+	margin-top: 0px;
+    margin-right: auto;
+}
+#HeadData {
+	display: inline-flex;
+}
+#LogoData {
+	display: inline-flex;
+	color: #ffffffe8;
+	text-align:center;
+	line-height: 120px;
+	font-size: 32px;
+	font-family: "Roboto";
+}
+#EnterButton {
+	height: 40px;
+	width: 160px;
+    border: 1px solid #736d6d;
+	border-radius: 3px;
+	margin-left: 16px;
+	margin-top: 38px;
+	font-size: 18px;
+	font-family: "Roboto";
+	color: #ffffffe8;
+	text-align:center;
+	background-color: #282b30;
+	line-height: 40px;
+}
+#DocText {
+	color: #ffffffe8;
+	text-align:center;
+	line-height: 120px;
+	font-size: 18px;
+	margin-left: 540px;
+	font-family: "Roboto";
+}

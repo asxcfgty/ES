@@ -1,0 +1,109 @@
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link href="panelPP.css" type="text/css" rel="stylesheet" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<style>
+body {
+  background: linear-gradient(45deg, #0a7383e3, #0e1b88ed, #000000db);
+  margin-top: 0px;
+}
+#HeadLine {
+	width: 1144px;
+	height: 96px;
+    margin-left: auto;
+	margin-top: 0px;
+    margin-right: auto;
+}
+#HeadData {
+	display: inline-flex;
+}
+#LogoData {
+	display: inline-flex;
+	color: #ffffffe8;
+	text-align:center;
+	line-height: 120px;
+	font-size: 32px;
+	font-family: "Roboto";
+}
+#EnterButton {
+	height: 40px;
+	width: 160px;
+    border: 1px solid #736d6d;
+	border-radius: 3px;
+	margin-left: 16px;
+	margin-top: 38px;
+	font-size: 18px;
+	font-family: "Roboto";
+	color: #ffffffe8;
+	text-align:center;
+	background-color: #282b30;
+	line-height: 40px;
+}
+#DocText {
+	color: #ffffffe8;
+	text-align:center;
+	line-height: 120px;
+	font-size: 18px;
+	margin-left: 540px;
+	font-family: "Roboto";
+}
+</style>
+</head>
+
+<body>
+  <div id="HeadLine">
+    <div id="HeadData">
+      <div id="LogoData">
+	    <img src="./logo.png" alt="" height="120"> 
+	    <div>ЭС СГУГиТ</div>
+	  </div>
+	  <div id='DocText'>Документация </div>
+	  <div id='EnterButton'>Вход</div>
+	</div>
+  </div>
+  
+  <div id="PanelBlock">
+    <div style="display: block;">
+      <div id="TopLeftBlock">
+	    <div id="NamePP">
+		  <div id="NamePPText">Наименование</div>
+		  <div id="NamePPData"><input id="NamePPInput" placeholder="Определение, тема, объект исследования..."></div>
+		</div>
+		<div style="display: flex;">
+          <div id="Subjects">
+		    <div id="SubjectsText">Дисциплина</div>
+		    <div id="SubjectsData"><input id="SubjectsInput" placeholder="Наименование дисциплины..."></div>
+		  </div>
+	      <div id="Val">
+		    <div id="ValText">Приоритет</div>
+		    <div id="ValData"><input id="ValInput" placeholder="% от 1 до 100" value="auto"></div>
+		  </div>
+		</div>
+	  </div>
+	  <div id="DiagramRule">
+	    <div id="DiagramText">Диаграмма вывода</div>
+	  </div>
+	  <div style="display: flex;">
+	    <div class="ButtonBlock" id="LinkAdd"><div class="ButtonIcon"><img src="./iconAdd.png" alt="" height="45"></div><div class="ButtonText" id="LinkAddText">Связь</div></div>
+		<div class="ButtonBlock" id="RuleAdd"><div class="ButtonIcon"><img src="./iconAdd.png" alt="" height="45"></div><div class="ButtonText" id="RuleAddText">Правило</div></div>
+		<div class="ButtonBlock" id="SavePP"><div class="ButtonIcon"><img src="./iconSave.png" alt="" height="45"></div><div class="ButtonText" id="SavePPText">Сохранить</div></div>
+	  </div>
+	</div>
+	<div style="display: block;">
+	  <div id="DataPP">
+		<div id="DataPPText">Описание</div>
+		<div id="DataPPData"><textarea id="DataPPTextarea" placeholder="Текст, ссылки, файлы..."></textarea></div>
+	  </div>
+	  <div id="DataSum">
+	    <div id="DataSumText">Вывод</div>
+		<div id="DataSumData"><textarea id="DataSumTextarea" placeholder="Сформированный вывод системы..."></textarea></div>
+	  </div>
+	</div>
+  </div>
+</body>
+</html>

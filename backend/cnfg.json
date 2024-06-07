@@ -1,0 +1,8 @@
+{"SSite": 'http://localhost:3000/',
+"PassUser":  '123qwe',
+"PassGuest": '123qwe',
+"PassAdmin": '123qwe',
+"learningRate": .005 ,
+"PPcount": 1000 ,
+"Port":  '80'
+}

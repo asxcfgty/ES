@@ -1,0 +1,44 @@
+#LogContent{
+	width: 398px;
+	height: 300px;
+	background-image:  url("back.png");
+	background-size: contain;
+	border: 2px solid #8eb0b3;
+	border-radius: 1px;
+    display: block;
+}
+#cRFIcon{
+}
+#LogHead {
+	display: inline-flex;
+	width: 350px;
+}
+#cRFLabel{
+	margin-left: 2px;
+	margin-top: 4px;
+}
+#LogData{
+	margin-left: 100px;
+	margin-top: 46px;
+}
+#cRFPassword{
+	border: 1px solid #000000;
+	height: 30px;
+	width: 208px;
+	margin-bottom: 22px;
+}
+
+#cRFEnter{
+	border: 1px solid #000000;
+	height: 28px;
+	width: 208px;
+	background: linear-gradient(to right, #f3ff4bb8, #00a3e4de);
+	background-color: #1464ff;
+	text-align:center;
+	line-height: 12px;
+	border-radius: 1px;
+}
+
+.smallText {
+	font-size: 16px;
+}

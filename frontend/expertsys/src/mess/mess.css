@@ -1,0 +1,97 @@
+body {
+  background: linear-gradient(45deg, #0a7383e3, #0e1b88ed, #000000db);
+  margin-top: 0px;
+}
+#HeadLine {
+	width: 1144px;
+	height: 96px;
+    margin-left: auto;
+	margin-top: 0px;
+    margin-right: auto;
+}
+#HeadData {
+	display: inline-flex;
+}
+#LogoData {
+	display: inline-flex;
+	color: #ffffffe8;
+	text-align:center;
+	line-height: 120px;
+	font-size: 32px;
+	font-family: "Roboto";
+}
+#EnterButton {
+	height: 40px;
+	width: 160px;
+    border: 1px solid #736d6d;
+	border-radius: 3px;
+	margin-left: 16px;
+	margin-top: 38px;
+	font-size: 18px;
+	font-family: "Roboto";
+	color: #ffffffe8;
+	text-align:center;
+	background-color: #282b30;
+	line-height: 40px;
+}
+#DocText {
+	color: #ffffffe8;
+	text-align:center;
+	line-height: 120px;
+	font-size: 18px;
+	margin-left: 540px;
+	font-family: "Roboto";
+}
+#Mess {
+	height: 300px;
+	width: 220px;
+    border-radius: 6px;
+	border-radius: 3px;
+	background-color: #4b4b4b8a;
+    right: 6px;
+    bottom: 6px;
+    position: absolute;
+}
+#headerText{
+	height: 22px;
+	margin: 4px;
+	color: #ffffffe8;
+	font-size: 18px;
+	font-family: "Roboto";
+}
+
+#AddresMes{
+	width: 212px;
+	height: 30px;
+	margin: 4px;
+}
+#AddresMesInput{
+	width: 212px;
+	height: 100%; 
+	border-right: 1px ridge #ffffff;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+	background-color: #ffffffe8;
+	border-radius: 6px;
+}
+
+
+#TextMes{
+	width: 212px;
+	height: 202px;
+	margin: 4px;
+}
+#TextMesInput{
+	width: 212px;
+	height: 100%; 
+	border-right: 1px ridge #ffffff;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+	background-color: #ffffffe8;
+	border-radius: 6px;
+	resize: none;
+}

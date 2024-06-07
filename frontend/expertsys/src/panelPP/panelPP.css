@@ -1,0 +1,382 @@
+
+#PanelBlock{
+	width: 1000px;
+	height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 60px;
+	display: flex;
+}
+
+#TopLeftBlock {
+	width: 490px;
+	height: 190px;
+	border-radius: 6px;
+	margin: 10px;
+}
+
+#DataPP {
+	width: 490px;
+	height: 320px;
+	border-radius: 6px;
+	background-color: #4b4b4b8a;
+	margin: 10px;
+}
+#DataPPText{
+	width: 480px;
+	height: 35px;
+	margin-left: 10px;
+	color: #ffffffe8;
+	line-height: 45px;
+	font-size: 18px;
+	font-family: "Roboto";
+}
+#DataPPData{
+	width: 480px;
+	height: 265px;
+	margin: 10px;
+}
+#DataPPTextarea{
+	width: 470px;
+	height: 100%; 
+	border-right: 1px ridge #ffffff;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+	background-color: #ffffffe8;
+	border-radius: 6px;
+	resize: none;
+}
+
+
+#DiagramRule {
+	width: 490px;
+	height: 350px;
+	border-radius: 6px;
+	background-color: #ffffffe8;
+	margin: 10px;
+}
+#DiagramText {
+	width: 480px;
+	height: 35px;
+	margin-left: 10px;
+	color: #373b5d;
+	line-height: 45px;
+	font-size: 18px;
+	font-family: "Roboto";
+}
+
+.ButtonBlock{
+	width: 90px;
+	height: 90px;
+	margin-top: 10px;
+	margin-left: 10px;
+	border-radius: 6px;
+	background-color: #4b4b4b8a;
+}
+.ButtonText{
+	width: 90px;
+	height: 20px;
+	color: #ffffffe8;
+	line-height: 30px;
+	font-size: 16px;
+	font-family: "Roboto";
+	text-align:center;
+}
+.ButtonIcon{
+	width: 45px;
+	height: 45px;
+	margin-left: 22.5px;
+	padding-top: 12.5px;
+}
+
+
+
+
+
+
+
+#DataSum {
+	width: 490px;
+	height: 320px;
+	border-radius: 6px;
+	background-color: #4b4b4b8a;
+	margin: 10px;
+}
+#DataSumText{
+	width: 480px;
+	height: 35px;
+	margin-left: 10px;
+	color: #ffffffe8;
+	line-height: 45px;
+	font-size: 18px;
+	font-family: "Roboto";
+}
+#DataSumData{
+	width: 480px;
+	height: 265px;
+	margin: 10px;
+}
+#DataSumTextarea{
+	width: 470px;
+	height: 100%; 
+	border-right: 1px ridge #ffffff;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+	background-color: #ffffffe8;
+	border-radius: 6px;
+	resize: none;
+}
+
+
+
+#NamePP{
+	width: 490px;
+	height: 90px;
+	border-radius: 6px;
+	background-color: #4b4b4b8a;
+	display: block;
+}
+
+#NamePPText{
+	width: 480px;
+	height: 35px;
+	margin: 10px;
+	color: #ffffffe8;
+	line-height: 45px;
+	font-size: 18px;
+	font-family: "Roboto";
+}
+#NamePPData{
+	width: 470px;
+	height: 35px;
+	margin: 10px;
+}
+#NamePPInput{
+	width: 468px;
+	height: 100%; 
+	border-right: 1px ridge #ffffff;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+	background-color: #ffffffe8;
+	border-radius: 6px;
+}
+
+#Subjects{
+	width: 350px;
+	height: 90px;
+	margin-top: 10px;
+	border-radius: 6px;
+	background-color: #4b4b4b8a;
+}
+#SubjectsText{
+	width: 330px;
+	height: 35px;
+	margin-left: 10px;
+	color: #ffffffe8;
+	line-height: 45px;
+	font-size: 18px;
+	font-family: "Roboto";
+}
+#SubjectsData{
+	width: 330px;
+	height: 35px;
+	margin: 10px;
+}
+#SubjectsInput{
+	width: 328px;
+	height: 100%; 
+	border-right: 1px ridge #ffffff;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+	background-color: #ffffffe8;
+	border-radius: 6px;
+}
+
+
+#Val{
+	width: 130px;
+	height: 90px;
+	margin-top: 10px;
+	margin-left: 10px;
+	border-radius: 6px;
+	background-color: #4b4b4b8a;
+}
+#ValText{
+	width: 120px;
+	height: 35px;
+	margin-left: 10px;
+	color: #ffffffe8;
+	line-height: 45px;
+	font-size: 18px;
+	font-family: "Roboto";
+}
+#ValData{
+	width: 120px;
+	height: 35px;
+	margin: 10px;
+}
+#ValInput{
+	width: 108px;
+	height: 100%; 
+	border-right: 1px ridge #ffffff;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+	background-color: #ffffffe8;
+	border-radius: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+#ResultData{
+	width: 1000px;
+	height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 60px;
+}
+
+#ResultBlock{
+	width: 998px;
+	min-height: 60px;
+	margin-bottom: 10px;
+	color: #bbbbbb;
+	font-size: 18px;
+	font-family: "Roboto";
+	border-radius: 6px;
+	background-color: #4b4b4b3d;
+	display: inline-flex;
+}
+
+.ResultBlockNum{
+	margin-left: 16px;
+	margin-right: 8px;
+	margin-Top: auto;
+	margin-bottom: auto;
+	padding-right: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-right: 1px ridge #736d6d;
+}
+
+.ResultBlockText{
+	margin-Top: auto;
+	margin-bottom: auto;
+}
+
+#ResultInSearch {
+	margin-Top: 16px;
+	margin-left: 16px;
+	display: inline-flex;
+	color: #bbbbbb;
+	font-size: 16px;
+	font-family: "Roboto";
+}
+
+#ResultYandex{
+	margin-left: 12px;
+}
+
+#ResultGoogle{
+	margin-left: 12px;
+}
+
+#ResultInSearchText{
+	margin-Top: auto;
+	margin-bottom: auto;
+}
+
+#SearchBlock{
+	width: 1000px;
+	height: 260px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 380px;
+}
+
+#SearchString {
+	width: 998px;
+	height: 56px;
+	background-color: #ffffff;
+	border-radius: 6px;
+	display: inline-flex;
+}
+
+#lupa {
+    margin-left: 13px;
+	margin-top: 9px;
+	padding-right: 6px;
+	padding-top: 4px;
+	padding-bottom:  4px;
+	width: 36.6px;
+	height: 38px;
+	border-right: 1px ridge #736d6d;
+}
+
+#SearchInputDiv {
+	width: 900px;
+	height: 32px;
+    margin-left: 4px;
+	margin-top: 12px;
+	outline-style: none;
+}
+
+#searchInput {
+	width: 96%;
+	height: 100%; 
+	border-right: 1px ridge #ffffff;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+
+}
+
+#SearchPop {
+	width: 960px;
+	height: 20px;
+	margin-top: 18px;
+	display: inline-flex;
+}
+
+#PopName {
+	font-size: 18px;
+	font-family: "Roboto";
+	color: #a6a6a6e6;
+    margin-left: 14px;
+}
+
+#PopBlock {
+	height: 20px;
+	border: 1px solid #736d6d;
+	border-radius: 3px;
+	background-color: #4b4b4b3d;
+	color: #bbbbbb;
+	font-size: 14px;
+	text-align:center;
+	font-family: "Roboto";
+    margin-left: 4px;
+	margin-Top: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
+	line-height: 20px;
+}
+
+
+
